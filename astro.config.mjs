@@ -9,5 +9,6 @@ export default defineConfig({
   devToolbar: {
     enabled: false
   },
+  site: 'https://beyralapierre.github.io',
   integrations: [react(), tailwind(), sitemap()]
 });
